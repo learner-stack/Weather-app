@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div style="padding-top:20px; padding-right: 30px; align-items: center; padding-left: 30px;">
+  <div class="col-md-10">
+    <div id = "center">
+      <h3>Get Temperature Details</h3>
+    <form action="/" method="POST">
+      <div class="form-group">
+        <input type="text" name="city" class="form-control" placeholder="Enter the city name" required/>
+        <br/>
+        <input type="submit" class="btn btn-info btn-block" value="GET TEMPERATURE"/>
+        </div>
+      </form>
+      </div>
+    <% if(weather !== null){ %>
+    <p><%= weather %></p>}
+    <% } %>
+    <% if(error !=null){ %>
+    <p><%= error %></p>
+    <% } %>
+
+   
+    </div>
+</div>
+
+</body>
+
+
+
+
+</html>
