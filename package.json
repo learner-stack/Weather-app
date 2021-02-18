@@ -6,20 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/learner-stack/Weather-app.git"
-  },
   "keywords": [
     "nodejs",
     "expressjs"
   ],
   "author": "at <amratatalekar@gmail.com> (http://amratatalekar.com)",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/learner-stack/Weather-app/issues"
-  },
-  "homepage": "https://github.com/learner-stack/Weather-app#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.0.2"
